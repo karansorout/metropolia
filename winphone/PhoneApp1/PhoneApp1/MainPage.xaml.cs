@@ -20,5 +20,10 @@ namespace PhoneApp1
         {
             InitializeComponent();
         }
+
+        private void p1_passwordBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
