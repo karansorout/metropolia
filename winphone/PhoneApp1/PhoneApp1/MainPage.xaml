@@ -26,12 +26,12 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Background="Lavender" Margin="40,78,55,210" Grid.Row="1">
+        <Grid x:Name="ContentPanel" Background="Lavender" Margin="0,78,0,210" Grid.Row="1">
             <TextBox Height="90" HorizontalAlignment="Right" Margin="0,6,6,0" Name="p1_login_email" Text="Enter Email" FontSize="30" Foreground="white" Background="brown" BorderThickness="8" BorderBrush="Tan" VerticalAlignment="Top" Width="360" />
             <PasswordBox Height="90" HorizontalAlignment="Right" Margin="0,102,6,0" Name="p1_passwordBox" LostFocus="p1_passwordBox_LostFocus" Background="Brown" VerticalAlignment="Top" Width="360" />
             <Button Content="gLogin" Foreground="white" Height="116" HorizontalAlignment="Left" Margin="26,207,0,0" Name="p1_button_picasalogin" Background="Brown" BorderThickness="8" BorderBrush="Tan"  VerticalAlignment="Top" Width="166" />
-            <Button>
-                <Image Source="/PhoneApp1;component/images/flickr_button.jpg" Height="116" Width="140" Margin="175,180,0,0" Name="p1_button_flickrlogin" />
+            <Button Margin="200,140,34,-64">
+                <Image Source="/PhoneApp1;component/images/flickr_button.jpg" Height="116" Width="140" Name="p1_button_flickrlogin" />
             </Button>
         </Grid>
         
